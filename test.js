@@ -10,11 +10,11 @@ class TrExtension {
           text: '[ONE] ** [TWO]',
           arguments: {
             ONE: {
-              type: Scratch.ArgumentType.STRING,
+              type: Scratch.ArgumentType.NUMBER,
               defaultValue: 'First value'
             },
             TWO: {
-              type: Scratch.ArgumentType.STRING,
+              type: Scratch.ArgumentType.NUMBER,
               defaultValue: 'Second value'
             }
           }
